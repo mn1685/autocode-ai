@@ -89,6 +89,7 @@ Compare player performance against:
 
 ```
 examples/golf-analytics/
+├── interactive.js              # 🎮 Interactive CLI application (START HERE)
 ├── models/                     # Data models
 │   ├── Shot.js                # Individual shot model
 │   ├── Round.js               # Round and hole models
@@ -99,8 +100,9 @@ examples/golf-analytics/
 ├── data/                       # Baseline data
 │   └── pgaTourBaselines.js    # PGA Tour statistical baselines
 ├── examples/                   # Usage examples
-│   ├── basic-usage.js         # Basic usage demonstrations
+│   ├── basic-usage.js         # Pre-built demonstrations
 │   └── test-scenarios.js      # Test cases and validation
+├── package.json               # NPM scripts
 └── README.md                  # This file
 ```
 
@@ -113,14 +115,36 @@ examples/golf-analytics/
 
 ### Installation
 
-No installation required! This is a standalone example. Simply run:
+No installation required! This is a standalone example.
+
+### Running the Application
+
+**🎮 Interactive Mode (Recommended):**
+
+Run the interactive CLI application to enter your own scenarios:
 
 ```bash
 cd examples/golf-analytics
-node examples/basic-usage.js
+npm start
+# or
+node interactive.js
 ```
 
-### Quick Start
+The interactive app features:
+- ✅ **Analyze Single Shots** - Enter any shot scenario and get instant strokes gained
+- ✅ **Compare Strategies** - Evaluate multiple shot options with risk optimization
+- ✅ **Analyze Complete Holes** - Track shot-by-shot performance
+- ✅ **Get Improvement Plans** - Personalized recommendations based on your stats
+- ✅ **Quick Lookups** - Check baseline strokes for any distance/location
+
+**📚 Example Demonstrations:**
+
+```bash
+npm run demo   # View pre-built examples
+npm test       # Run test suite
+```
+
+### Quick Start (Code)
 
 ```javascript
 import { Shot } from './models/Shot.js';
