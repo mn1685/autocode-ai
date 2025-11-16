@@ -7,7 +7,8 @@
         "start": "node interactive.js",
         "demo": "node examples/basic-usage.js",
         "test": "node examples/test-scenarios.js",
-        "interactive": "node interactive.js"
+        "interactive": "node interactive.js",
+        "video": "node demo-video.js"
     },
     "keywords": [
         "golf",
