@@ -89,4 +89,28 @@ AutoCode currently supports the following programming languages:
 
 Each language has its own configuration for file extensions, recommended linter, formatter, and package manager.
 
+## Examples
+
+The `examples/` directory contains comprehensive demonstrations of what can be built with AutoCode:
+
+### Golf Analytics (`examples/golf-analytics/`)
+
+A professional golf analytics system featuring:
+- **Strokes Gained calculations** based on PGA Tour methodology
+- **Risk-adjusted optimization** algorithms for shot selection
+- **Performance analysis** against tour benchmarks
+- **Statistical modeling** using real PGA Tour data
+- **Improvement planning** with risk-neutral recommendations
+
+This example demonstrates AutoCode's capability to generate complex analytics systems with sophisticated algorithms, data models, and comprehensive documentation.
+
+**Run the example:**
+```bash
+cd examples/golf-analytics
+node examples/basic-usage.js    # See usage examples
+node examples/test-scenarios.js # Run test suite
+```
+
+See `examples/golf-analytics/README.md` for full documentation.
+
 # TODO

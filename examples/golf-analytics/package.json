@@ -1,0 +1,23 @@
+{
+    "name": "golf-analytics-example",
+    "version": "1.0.0",
+    "description": "Golf analytics example with strokes gained and risk optimization",
+    "type": "module",
+    "scripts": {
+        "start": "node examples/basic-usage.js",
+        "test": "node examples/test-scenarios.js"
+    },
+    "keywords": [
+        "golf",
+        "analytics",
+        "strokes-gained",
+        "pga-tour",
+        "risk-optimization",
+        "statistics"
+    ],
+    "author": "AutoCode AI",
+    "license": "MIT",
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
