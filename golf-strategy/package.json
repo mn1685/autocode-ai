@@ -1,0 +1,31 @@
+{
+    "name": "golf-course-strategy-planner",
+    "version": "1.0.0",
+    "description": "An intelligent golf course strategy application that uses data to plot optimal playing strategies",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "golf-strategy": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "golf",
+        "strategy",
+        "course-management",
+        "sports",
+        "analysis",
+        "cli"
+    ],
+    "author": "AutoCode-AI",
+    "license": "MIT",
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "dependencies": {
+        "chalk": "^5.6.2",
+        "inquirer": "^12.9.6",
+        "ora": "^9.0.0"
+    }
+}
